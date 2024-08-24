@@ -1,3 +1,4 @@
+package BinearSearch;
 public class Infinitearray {
     
     //search an element in infinite sorted array

@@ -1,3 +1,4 @@
+package BinearSearch;
 import java.util.Arrays;
 
 //index of a numeber's first and last occurence in a sorted array

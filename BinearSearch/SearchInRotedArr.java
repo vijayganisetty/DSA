@@ -1,3 +1,4 @@
+package BinearSearch;
 public class SearchInRotedArr {
     //only for sorted rotated array with no duplicates
     static int binaryForPivot(int[] nums,int n,int s,int e)

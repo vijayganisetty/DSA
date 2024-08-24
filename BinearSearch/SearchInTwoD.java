@@ -1,3 +1,4 @@
+package BinearSearch;
 import java.util.Arrays;
 
 public class SearchInTwoD {

@@ -1,4 +1,4 @@
-package Backtracking;
+package Recursion.Backtracking;
 
 import java.util.Arrays;
 

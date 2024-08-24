@@ -1,3 +1,4 @@
+package BinearSearch;
 public class SearchInRotateDup {
     //if presence of duplicates in rorated sorted array.
     static int binaryForPivot(int[] nums,int n,int s,int e)

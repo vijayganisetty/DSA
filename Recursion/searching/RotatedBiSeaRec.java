@@ -1,3 +1,5 @@
+package Recursion.searching;
+
 public class RotatedBiSeaRec {
     
     //Rotated Binary Search using recursion

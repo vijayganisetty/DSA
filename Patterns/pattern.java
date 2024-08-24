@@ -1,3 +1,5 @@
+package Patterns;
+
 public class pattern {
     
     static void pattern1()

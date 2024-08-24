@@ -211,8 +211,17 @@ public class Practice {
     // System.out.print(calcTotalTax(5));
     // revArr();
     // bubbleSort();
-    System.out.print(revNum(8187801815L));
-    }
+//    System.out.print(revNum(8187801815L));
+
+        Scanner sc = new Scanner(System.in);
+       String[] arr   =  sc.nextLine().split(" ");
+       int a = Integer.parseInt(arr[0]);
+       int b = Integer.parseInt(arr[1]);
+        System.out.println(a+b);
+
+
+
+   }
 
     
 }
