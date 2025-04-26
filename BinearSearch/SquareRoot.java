@@ -1,3 +1,4 @@
+package BinearSearch;
 public class SquareRoot {
     
 

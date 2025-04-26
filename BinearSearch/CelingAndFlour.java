@@ -1,3 +1,4 @@
+package BinearSearch;
 public class CelingAndFlour {
 
     /* celing number - smallest in the array that are equal to or grater then the target array 

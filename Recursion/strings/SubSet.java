@@ -1,5 +1,4 @@
-package strings;
-
+package Recursion.strings;
 import java.util.ArrayList;
 import java.util.List;
 

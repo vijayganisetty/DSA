@@ -1,3 +1,5 @@
+package SortingOfArray;
+
 import java.util.Arrays;
 
 public class SelectionSort {
@@ -10,7 +12,6 @@ public class SelectionSort {
             int last =nums.length-i-1;
             int maxEle =getMaxEle(nums,0,last);
             swap(nums,maxEle,last);
-
         }
         return nums;
     }

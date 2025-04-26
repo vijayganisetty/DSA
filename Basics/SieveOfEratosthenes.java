@@ -1,3 +1,4 @@
+package Basics;
 public class SieveOfEratosthenes {
     
     // to find n primes of to count n primes

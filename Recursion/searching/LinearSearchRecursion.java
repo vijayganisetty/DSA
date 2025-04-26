@@ -1,3 +1,4 @@
+package Recursion.searching;
 import java.util.ArrayList;
 
 public class LinearSearchRecursion {

@@ -1,3 +1,5 @@
+package Patterns;
+
 public class pattern {
     
     static void pattern1()
@@ -270,8 +272,6 @@ public class pattern {
     
     public static void main(String[] args)
     {
-
-        pattern31(4); 
-    // pattern12(5);
+        pattern10(5);
     }
 }

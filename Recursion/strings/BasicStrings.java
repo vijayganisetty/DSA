@@ -1,4 +1,4 @@
-package strings;
+package Recursion.strings;
 
 public class BasicStrings {
 

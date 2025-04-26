@@ -1,5 +1,4 @@
-package Backtracking;
-
+package Recursion.Backtracking;
 import java.util.ArrayList;
 
 //Maze problem  bascis

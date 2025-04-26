@@ -1,3 +1,4 @@
+package BinearSearch;
 public class SplitArray {
 
     static int findMin(int[] nums,int m)

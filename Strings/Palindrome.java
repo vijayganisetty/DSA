@@ -1,10 +1,12 @@
+package Strings;
+
 import java.util.Scanner;
 
 public class Palindrome {
 
     static boolean isPali(String str)
     {
-        if(str==null || str.length()==0)
+        if(str==null || str.isEmpty())
         {
             return true;
         }

@@ -1,3 +1,4 @@
+package BinearSearch;
 public class OrderIgnostic {
     static int orderAgnostic(int[] nums,int n,boolean index)
     {

@@ -1,4 +1,6 @@
+package SortingOfArray;
 import java.util.Arrays;
+
 
 public class BubbleSort {
      
@@ -19,7 +21,7 @@ public class BubbleSort {
                     swap=true;
                 }  
             }
-            if(swap==false)
+            if(!swap)
             {
                 break;
             }

@@ -1,3 +1,5 @@
+package Recursion.searching;
+
 public class BinaryRecur {
     
     static int binarySearch(int[] nums,int target,int s,int e)
