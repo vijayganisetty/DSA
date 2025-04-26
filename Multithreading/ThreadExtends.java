@@ -18,9 +18,7 @@ class Employee extends Thread{
 
     @Override
     public void run(){
-
         System.out.println("hell0"+Thread.currentThread().getName()+" "+Thread.currentThread().getId());
-
     }
 }
 
