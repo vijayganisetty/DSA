@@ -6,5 +6,6 @@ public class Addition {
         int i =100;
         int j = 200;
         System.out.println(i+j);
+
     }
 }
