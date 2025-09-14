@@ -1,4 +1,4 @@
-package LambdaExpression;
+package Java8Features.LambdaExpression;
 
 import java.util.Scanner;
 

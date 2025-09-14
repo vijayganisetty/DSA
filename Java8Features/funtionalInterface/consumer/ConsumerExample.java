@@ -1,2 +1,22 @@
-package Java8Features.funtionalInterface.consumer;public class ConsumerExample {
+package Java8Features.funtionalInterface.consumer;
+
+import java.util.function.Consumer;
+
+public class ConsumerExample {
+
+    public static void main(String[] args) {
+
+        Consumer<String> con1 = (s) -> {
+            System.out.println(s.toUpperCase());
+        };
+//        con1.accept("hello");
+
+        Consumer<String> con2 = (s) -> System.out.println(s.length());
+//        con2.accept("hai");
+
+        con1.andThen(con2).accept("java");
+
+
+
+    }
 }

@@ -1,8 +1,6 @@
-package LambdaExpression;
+package Java8Features.LambdaExpression;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Bike  {
 

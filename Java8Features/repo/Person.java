@@ -1,7 +1,8 @@
-package Java8Features.funtionalInterface.repo;
+package Java8Features.repo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 
 public class Person {
@@ -11,6 +12,19 @@ public class Person {
     private double salary;
     private int kids;
     private List<String> hobbies = new ArrayList<>();
+
+    public Optional<Address> getAddress() {
+        return address;
+    }
+
+    public void setAddress(Optional<Address> address) {
+        this.address = address;
+    }
+
+    Optional<Address> address;
+
+    public Person() {
+    }
 
     public Person(String name, int height, int kids, double salary, List<String> hobbies) {
         this.name = name;

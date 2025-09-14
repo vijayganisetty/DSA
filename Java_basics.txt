@@ -1,0 +1,20 @@
+print 6th table upto 10's ( format - 6 X 1 = 6)
+average of n numbers
+is valid mobile number
+sum of n natural numbers
+HCF Of Two Numbers 
+LCM Of Two Numbers
+reverse a number
+Subtract the Product and Sum of Digits of an Integer ( ex - 123 --> 6-6 ==0)
+Subtract the sum of  odd numbersfrom  sum of even numbers in integer ( ex - 123 -->  2 - 4 --> -2)
+Sum Of A Digits Of Number
+is palindrome
+is prime 
+is perfect square
+find prime number form 1 to n
+perfect number
+amstrong
+fibonacci series
+factorial
+Take integer inputs till the user enters 0 and print the sum of all numbers
+Take integer inputs till the user enters 0 and print the largest number from all.

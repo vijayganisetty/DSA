@@ -1,8 +1,4 @@
-package LambdaExpression;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package Java8Features.LambdaExpression;
 
 public class MethodReference {
     public static void main(String[] args) {

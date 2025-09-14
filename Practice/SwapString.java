@@ -1,2 +1,5 @@
-package Practice;public class SwapString {
+package Practice;
+
+public class SwapString {
+
 }

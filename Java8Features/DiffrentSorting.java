@@ -1,14 +1,12 @@
-package Java8Features.interfaceUpgraded;
+package Java8Features;
 
 import Java8Features.repo.Person;
 import Java8Features.repo.PersonRepository;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
-public class InterfaceDefault {
+public class DiffrentSorting {
 
     public static void main(String[] args) {
 
@@ -33,8 +31,35 @@ public class InterfaceDefault {
         nameList.forEach(System.out::println);
 
 
+        List<String> names = List.of("three","four","one","two","five","six");
+
+        names.stream()
+                .sorted((f1,f2) -> Integer.compare(f2.length(),f1.length()))
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
+
+        int[] nums = {1,2,3,4,5,};
+        int l =0;
+        int r = nums.length-1;
+        while(l<r){
+            int temp = nums[l];
+            nums[l] = nums[r];
+            nums[r] = temp;
+            l++;
+            r--;
+        }
+        for(int x : nums){
+            System.out.println(x);
+        }
 
 
+        List<Integer> numbers = Arrays.asList(10,33,15,null,8);
+
+            numbers
+                    .stream()
+                    .filter(Objects::nonNull)
+                    .filter( x -> x.toString().startsWith("1"))
+                    .forEach(System.out::println);
     }
 }
 
